@@ -1,4 +1,4 @@
-Aqui está a versão revisada, com os tópicos destacados como você pediu:
+
 
 ```markdown
 # Convenção de Commits
