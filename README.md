@@ -2,10 +2,10 @@
 
 Para garantir consistência e clareza no histórico de commits, siga as diretrizes abaixo:
 
-#### Formato do Commit
+## Formato do Commit
 O formato e os tipos de commit seguem a convenção padrão.
 
-#### Tipos de Commit
+### Tipos de Commit
 - **feat**: Uma nova funcionalidade.
 - **fix**: Correção de bugs.
 - **docs**: Atualizações ou mudanças na documentação.
@@ -14,12 +14,12 @@ O formato e os tipos de commit seguem a convenção padrão.
 - **test**: Adição ou modificação de testes.
 - **chore**: Tarefas administrativas, como atualizações de dependências e ajustes no build.
 
-#### Exemplos
+### Exemplos
 - `feat: adiciona funcionalidade de login para funcionários da cantina`
 - `fix: corrige erro de validação no formulário de pedido`
 - `docs: atualiza README com instruções de instalação`
 
-#### Estrutura do Commit
+### Estrutura do Commit
 ```plaintext
 <header />
 <LINHA_EM_BRANCO />
