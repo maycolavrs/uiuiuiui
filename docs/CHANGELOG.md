@@ -1,7 +1,3 @@
-Aqui está o **Changelog** ajustado para o contexto do projeto "Digital Flavor", o aplicativo de cantina escolar:
-
----
-
 # Changelog do Projeto
 
 Todas as mudanças notáveis e pull requests neste projeto serão documentadas neste arquivo.
@@ -36,7 +32,3 @@ Todas as mudanças notáveis e pull requests neste projeto serão documentadas n
 
 ### Removido
 - N/A
-
----
-
-Com essas mudanças, o changelog está coerente com o desenvolvimento do **Digital Flavor** e as tecnologias utilizadas no projeto.
