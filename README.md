@@ -1,74 +1,53 @@
+Aqui está uma versão levemente ajustada da sua **Convenção de Commits**, focada no projeto do aplicativo de cantina, mantendo a estrutura clara e organizada:
 
+---
 
-markdown
-# Convenção de Commits
+### Convenção de Commits
 
-Para garantir consistência e clareza no histórico de commits, siga as diretrizes abaixo. Elas facilitarão o entendimento das mudanças feitas no projeto e melhorarão a colaboração entre os membros da equipe.
+Para garantir consistência e clareza no histórico de commits, siga as diretrizes abaixo:
 
-## Formato do Commit
+#### Formato do Commit
+O formato e os tipos de commit seguem a convenção padrão.
 
-Utilizamos uma convenção de commits baseada nos tipos de alterações que estão sendo realizadas. O formato deve seguir a estrutura:
+#### Tipos de Commit
+- **feat**: Uma nova funcionalidade.
+- **fix**: Correção de bugs.
+- **docs**: Atualizações ou mudanças na documentação.
+- **style**: Alterações que não afetam o comportamento do código (ex.: formatação, espaços em branco).
+- **refactor**: Alterações no código que não adicionam funcionalidades ou corrigem bugs.
+- **test**: Adição ou modificação de testes.
+- **chore**: Tarefas administrativas, como atualizações de dependências e ajustes no build.
 
+#### Exemplos
+- `feat: adiciona funcionalidade de login para funcionários da cantina`
+- `fix: corrige erro de validação no formulário de pedido`
+- `docs: atualiza README com instruções de instalação`
+
+#### Estrutura do Commit
 ```plaintext
-<tipo>: <resumo breve>
-
-<linha em branco>
-
-<descrição detalhada (opcional)>
-
-<linha em branco>
-
-<informações adicionais (opcional)>
+<header />
+<LINHA_EM_BRANCO />
+<body> (opcional)
+<LINHA_EM_BRANCO />
+<footer> (opcional)
 ```
 
-## **Tipos de Commit**
+- **Header**: `<type>: <short summary>`
+    - **type**: Define o tipo da mudança (feat, fix, etc.).
+    - **short summary**: Um resumo breve da alteração. Escreva no tempo presente, sem ponto final e não capitalizado.
+  
+- **Body** (opcional):
+    - Descrição detalhada da mudança.
+    - Explique o motivo da alteração e como foi implementada.
+    - Escreva de forma clara e objetiva, em parágrafos curtos.
 
-- **feat**: Introdução de uma nova funcionalidade no aplicativo.
-- **fix**: Correção de um bug no sistema.
-- **docs**: Atualização de documentação (por exemplo, README ou guias de instalação).
-- **style**: Alterações que não afetam o funcionamento do código (espaços, formatação, etc.).
-- **refactor**: Refatoração de código sem correção de bugs ou adição de funcionalidades.
-- **test**: Inclusão ou modificação de testes automatizados.
-- **chore**: Alterações menores, como atualizações de dependências ou configurações de build.
+- **Footer** (opcional):
+    - Notas adicionais, como *breaking changes* ou referência a issues fechadas.
+    - **BREAKING CHANGE**: Descrição de alterações que quebram a compatibilidade anterior.
+    - **Closes**: Indica as issues resolvidas pela mudança.
 
-## **Exemplos de Commits**
+Seguir essas diretrizes ajudará a manter um histórico de commits limpo e organizado, facilitando a manutenção e a colaboração no projeto.
 
-- `feat: adiciona funcionalidade de pedidos online`
-- `fix: corrige erro na validação do campo de quantidade`
-- `docs: atualiza README com instruções para deploy`
-- `style: ajusta indentação em arquivos JavaScript`
-- `refactor: melhora a legibilidade da função de cálculo de preço total`
+---
 
-## **Detalhamento das Partes do Commit**
-
-### **Header**
-O cabeçalho do commit deve conter:
-
-```plaintext
-<tipo>: <resumo breve>
-```
-
-- **tipo**: Define o tipo de mudança (feat, fix, docs, etc.).
-- **resumo breve**: Descrição curta e objetiva da mudança (no tempo presente, sem ponto final e sem começar com letra maiúscula).
-
-### **Body (opcional)**
-Aqui pode-se incluir uma descrição mais detalhada sobre a mudança:
-
-- Explique **por que** a mudança foi feita.
-- Detalhe **como** a mudança foi implementada.
-- Deve ser escrita no tempo presente, em parágrafos curtos.
-
-### **Footer (opcional)**
-O rodapé pode conter informações adicionais, como:
-
-- **BREAKING CHANGE**: Para mudanças que quebram a compatibilidade com versões anteriores.
-- **Closes**: Referência a issues ou tickets que foram resolvidos pela mudança (ex: `Closes #12`).
-
-## **Benefícios de Seguir a Convenção**
-
-- **Histórico claro**: Facilita a navegação e o entendimento das mudanças feitas no projeto.
-- **Manutenção simplificada**: Torna mais fácil identificar a origem de bugs e funcionalidades.
-- **Melhor colaboração**: Colaboradores conseguem entender rapidamente o impacto de cada commit.
-```
-
-Agora os tópicos principais como "Tipos de Commit", "Exemplos de Commits" e "Detalhamento das Partes do Commit" estão destacados, deixando o documento mais organizado e fácil de entender.
+A estrutura mantém a organização original, mas os exemplos foram adaptados ao tema do aplicativo de cantina. Se precisar de mais ajustes, me avise!
