@@ -43,7 +43,3 @@ O formato e os tipos de commit seguem a convenção padrão.
     - **Closes**: Indica as issues resolvidas pela mudança.
 
 Seguir essas diretrizes ajudará a manter um histórico de commits limpo e organizado, facilitando a manutenção e a colaboração no projeto.
-
----
-
-A estrutura mantém a organização original, mas os exemplos foram adaptados ao tema do aplicativo de cantina. Se precisar de mais ajustes, me avise!
