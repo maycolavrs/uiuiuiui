@@ -1,7 +1,3 @@
-Aqui está uma versão levemente ajustada da sua **Convenção de Commits**, focada no projeto do aplicativo de cantina, mantendo a estrutura clara e organizada:
-
----
-
 ### Convenção de Commits
 
 Para garantir consistência e clareza no histórico de commits, siga as diretrizes abaixo:
