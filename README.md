@@ -1,6 +1,3 @@
-Aqui está a versão ajustada da documentação, agora para o projeto "Digital Flavor", que é o aplicativo da cantina da escola:
-
----
 
 # Digital Flavor
 
