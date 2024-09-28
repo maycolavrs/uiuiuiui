@@ -1,4 +1,4 @@
-### Convenção de Commits
+# Convenção de Commits
 
 Para garantir consistência e clareza no histórico de commits, siga as diretrizes abaixo:
 
