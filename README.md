@@ -1,6 +1,6 @@
 
 
-```markdown
+markdown
 # Convenção de Commits
 
 Para garantir consistência e clareza no histórico de commits, siga as diretrizes abaixo. Elas facilitarão o entendimento das mudanças feitas no projeto e melhorarão a colaboração entre os membros da equipe.
